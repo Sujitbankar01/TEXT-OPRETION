@@ -120,10 +120,10 @@
             outputElement.value = inputElement.value.toLowerCase();
          }else if(operation == "wordcount"){
              const totalWords = inputElement.value.split(" ").length;
-             outputElement.value = Word : ${totalWords}
+             outputElement.value = `Word Count: ${totalWords}`
          }else{
              const totalCharCount = inputElement.value.length;
-             outputElement.value = Character Count: ${totalCharCount}
+             outputElement.value = ` Character Count: ${totalCharCount}`
          }
         }
     </script>
